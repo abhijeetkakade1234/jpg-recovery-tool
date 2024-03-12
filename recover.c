@@ -16,6 +16,7 @@ int main(int argc, char *argv[])
     uint8_t buffer[512];
     while (fread(buffer, 1, 512, card) == 512)
     {
+        // ALL the .jpg start with 0xff, 0xd8, 0xff AND FROM 0xf0 to 0xe0
         if (buffer[0] == 0xff && buffer[1] == 0xd8 && buffer[2] == 0xff && (buffer[3] & 0xf0) == 0xe0)
         {
             if (a > 0)
