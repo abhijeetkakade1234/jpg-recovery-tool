@@ -1,6 +1,4 @@
 # jpg-recovery-tool
-"jpg-recovery-tool" is a repository containing a C program designed to recover JPG images from storage. The program can scan storage devices for JPG files that may have been deleted or corrupted, and attempt to recover them. This tool can be helpful in scenarios where important image files need to be restored.
-
 This tool is designed to recover JPG images from storage devices. It can scan a storage device for deleted or corrupted JPG files and attempt to recover them. The tool is written in C and can be compiled and run on most systems.
 
 ## Features
